@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+
+}
+.li1 {
+	display: inline-block;
+	padding: 40px;
+	color: white;
+	font-family: Impact;
+	font-size: 25px;
+	position: center;
+	top: 50%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 90px;
+	width: 100%;
+	background: #FFA500;
+	
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	padding: 0 0 0px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	float: left;
+	overflow: hidden;
+}
+.content {
+	padding: 0 0 0 200px;
+	background-color: white;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	height: 1005px;
+	width: 180px;
+	margin-left: -100%;
+	position: relative;
+	background: white;
+	padding: 10px;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+.orangetext {
+	        padding-top: 15px;
+	        color: orange;
+	       font-family: &#39;TradeGothicLTComBoldCondensed&#39;,Arial,Helvetica,sans-serif;
+           font-size: 20px;
+}
+.maintext {
+	      padding-top: 45px;
+	      color: orange;
+	      font-family: &#39;TradeGothicLTComBoldCondensed&#39;,Arial,Helvetica,sans-serif;
+          font-size: 20px;
+	      position: center;
+	      }
+.blacktext {
+	       color: black;
+	       font-size: 16px;
+	       font-family: Impact;
+}
+.blacktextt {
+	        color: black;
+	        font-size: 16px;
+	        position: right;
+	        font-family: Impact;
+}
+.whitetext {
+	        color: white;
+	        font-size: 16px;
+	        font-family: Impact;
+}
+.footer {
+	height: 100px;
+	background: #BFF08E;
+	margin: 0px;
+	padding-top: 0px;
+}
