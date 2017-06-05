@@ -9,120 +9,38 @@
 body {
 	background-image: url(background.jpg);
 }
-* {
-	margin: 0;
-	padding: 0;
+a.button16 {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em;
+  outline: none;
+  border-radius: 1px;
 }
-html {
-	height: 100%;
+a.button16:hover {
+  background-image:
+   radial-gradient(1px 45% at 0% 50%, rgba(0,0,0,.6), transparent),
+   radial-gradient(1px 45% at 100% 50%, rgba(0,0,0,.6), transparent); 
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-	display: block;
+a.button16:active {
+  background-image:
+   radial-gradient(45% 45% at 50% 100%, rgba(255,255,255,.9), rgba(255,255,255,0)),
+   linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.3));
+  box-shadow:
+   inset rgba(162,95,42,.4) 0 0 0 1px,
+   inset rgba(255,255,255,.9) 0 0 1px 3px;
 }
-body {
-	font: 12px/18px Arial, sans-serif;
-	height: 100%;
-}
-.wrapper {
-	width: 1000px;
-	margin: 0 auto;
-
-}
-.li1 {
-	display: inline-block;
-	padding: 40px;
-	color: white;
-	font-family: Impact;
-	font-size: 25px;
-	position: center;
-	top: 1px;
-}
-/* Header
------------------------------------------------------------------------------*/
-.header {
-	height: 70px;
-	width: 100%;
-	background: #FFA500;
-	
-}
-
-
-/* Middle
------------------------------------------------------------------------------*/
-.middle {
-	width: 100%;
-	padding: 0 0 50px;
-	position: relative;
-}
-.middle:after {
-	display: table;
-	clear: both;
-	content: '';
-}
-.container {
-	float: left;
-	overflow: hidden;
-}
-.content {
-	padding: 0 0 0 200px;
-	background-color: white;
-}
-
-
-/* Left Sidebar
------------------------------------------------------------------------------*/
-.left-sidebar {
-	float: left;
-	height: 1005px;
-	width: 180px;
-	margin-left: -100%;
-	position: relative;
-	background: white;
-	padding: 10px;
-}
-/* Footer
------------------------------------------------------------------------------*/
-.orangetext {
-	        padding-top: 15px;
-	        color: orange;
-	       font-family: &#39;TradeGothicLTComBoldCondensed&#39;,Arial,Helvetica,sans-serif;
-           font-size: 20px;
-}
-.maintext {
-	      padding-top: 45px;
-	      color: orange;
-	      font-family: &#39;TradeGothicLTComBoldCondensed&#39;,Arial,Helvetica,sans-serif;
-          font-size: 20px;
-	      position: center;
-	      }
-.blacktext {
-	       color: black;
-	       font-size: 16px;
-	       font-family: Impact;
-}
-.blacktextt {
-	        color: black;
-	        font-size: 16px;
-	        position: right;
-	        font-family: Impact;
-}
-.whitetext {
-	        color: white;
-	        font-size: 16px;
-	        font-family: Impact;
-}
-.footer {
-	height: 100px;
-	background: #BFF08E;
-	margin: 0px;
-	padding-top: 0px;
-}
-.th-0 {
-	font-size: 19px;
-	background-color: white;
-}
-
+#footer {
+    position: no fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+   #footer div {
+    padding: 10px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+   }
   </style>
+	<link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -142,7 +60,7 @@ body {
 
 		<div class="container">
 			<main class="content">
-				<div id="content-main"><!--TYPO3SEARCH_begin-->	<h2 style="background: #FF8C00;
+				<div id="content-main"><!--TYPO3SEARCH_begin-->	<h2 style="background: white;
 
 </div>" rel="lightbox"><img src="lsb1.png" width="706" height="483" border="0" style="margin: 20px 0 -10px 10px"></a><div style="text-align: right"><span style="padding: 15px 15px 15px 15px"></span></div><br><br><div class="row-fluid margin-bottom-40" style="border-top: 3px solid black">
 		<div class="span12">
@@ -173,7 +91,7 @@ body {
 							</tbody></table>
 						</div>
 
-						<tbody>			</tbody></table> </a><br><span style="COLOR: #f60; FONT-WEIGHT: bold; TEXT-DECORATION: none; FONT-FAMILY: verdana, arial, helvetica, sans-serif; FONT-SIZE:14px"> Цена - 330000 грн<sup>*</sup></span><br><span style="FONT-FAMILY: verdana, arial, helvetica, sans-serif; FONT-SIZE:10px">*Актуальную цену уточняйте в магазине.</span>			</div>
+						<tbody>			</tbody></table> </a><br><span style="COLOR: orange; FONT-WEIGHT: bold; TEXT-DECORATION: none; FONT-FAMILY: verdana, arial, helvetica, sans-serif; FONT-SIZE:14px"> Цена - 330000 грн<sup>*</sup></span><br><span style="FONT-FAMILY: verdana, arial, helvetica, sans-serif; FONT-SIZE:10px">*Актуальную цену уточняйте в магазине.</span>			</div>
 			</main><!-- .content -->
 		</div><!-- .container-->
          
